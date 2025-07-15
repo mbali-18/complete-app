@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
+
 import classes from "./post-item.module.css";
+
 function PostItem(props) {
   const { title, image, excerpt, date, slug } = props.post;
 
@@ -34,4 +36,5 @@ function PostItem(props) {
     </li>
   );
 }
+
 export default PostItem;

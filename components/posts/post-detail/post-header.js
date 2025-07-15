@@ -1,8 +1,10 @@
 import Image from "next/image";
 
 import classes from "./post-header.module.css";
-function Postheader(props) {
+
+function PostHeader(props) {
   const { title, image } = props;
+
   return (
     <header className={classes.header}>
       <h1>{title}</h1>
@@ -10,4 +12,5 @@ function Postheader(props) {
     </header>
   );
 }
-export default Postheader;
+
+export default PostHeader;
