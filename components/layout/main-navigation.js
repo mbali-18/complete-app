@@ -1,9 +1,9 @@
 import Link from "next/link";
-import Logo from "./logo";
 
+import Logo from "./logo";
 import classes from "./main-navigation.module.css";
 
-function MainNaviation() {
+function MainNavigation() {
   return (
     <header className={classes.header}>
       <Link href="/">
@@ -23,4 +23,4 @@ function MainNaviation() {
   );
 }
 
-export default MainNaviation;
+export default MainNavigation;
